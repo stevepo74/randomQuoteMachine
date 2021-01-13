@@ -1,0 +1,84 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+body {
+  background-image: url(images/Background_Image_QuoteMachine.png);
+  background-repeat: repeat;
+}
+
+
+h1 {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 80px;
+  color: white;
+}
+h3 {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 400;
+  color: silver;
+}
+
+p {
+  font-family: Raleway;
+}
+.container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+hr {
+      width: 600px;
+      height: 12px;
+      border: 0;
+      color: silver;
+      box-shadow: inset 0 12px 12px -12px;
+
+  /*width: 600px;
+  border-bottom: 1px solid black;*/
+}
+#quote-box {
+  /*border-radius: 5px;
+	position: relative;
+	margin: 5% auto auto auto;
+	width: auto;
+	padding: 40px 50px;
+	display: table;
+	background-color: #ffffffdc;
+  */
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  margin: auto;
+  background-color: white;
+}
+
+
+#text {
+    i{
+      font-size:1.0em;
+      margin-right: 0.4em;
+    }
+    text-align: center;
+    width:auto;
+    height:auto;
+    clear:both;
+    font-weight:500;
+    font-size:1.75em;
+  }
+
+.list-inline {
+  padding: 10px;
+}
+
+.btn {
+  background-color: silver;
+}
+
+.footer {
+  color: #C8C8C8;
+}
